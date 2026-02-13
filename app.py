@@ -6,6 +6,7 @@ app = Flask(__name__)
 ANDROID_LINK = "https://play.google.com/store/apps/details?id=br.com.client.ibientregas"
 IOS_LINK = "https://apps.apple.com/br/app/ibi-entregas/id6743942785"
 
+FIXED_URL = "https://ibi-entregas.onrender.com/app"
 
 
 @app.route("/")
